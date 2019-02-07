@@ -1,0 +1,24 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Timmana");
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #20B2AA;
+    color: white;
+    font-family: 'Timmana', sans-serif;
+}
+
+th{
+  font-size: 18pt;
+}
+
+#app{
+    font-family: 'Timmana', sans-serif;
+}
+span{
+  margin-left: 35px
+}
