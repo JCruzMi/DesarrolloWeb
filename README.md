@@ -44,6 +44,14 @@ git config --global user.name "usuario"
 
 git remote add origin https://github.com/JCruzMi/DesarrolloWeb2019.git
 
+#clonar del github
+
+git clone https://github.com/JCruzMi/DesarrolloWeb2019.git
+
+npm install
+
+npm run dev
+
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
