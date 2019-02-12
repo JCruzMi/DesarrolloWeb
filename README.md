@@ -44,7 +44,6 @@ git config --global user.name "usuario"
 
 git remote add origin https://github.com/JCruzMi/DesarrolloWeb2019.git
 
-
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
