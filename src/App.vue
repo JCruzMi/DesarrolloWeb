@@ -3,7 +3,8 @@
     br
     div#app.text-center
       h1 {{ msg }}
-      img(src="assets/Juan.png")
+      img(src="./assets/juan.png", class="image")
+        
       <index></index>
 
 </template>
