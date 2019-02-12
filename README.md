@@ -33,9 +33,16 @@ npm run dev
 
 #dependencias
 
-npm i 
+npm i
 
 
+# git comands
+
+git config --global user.email "correo"
+
+git config --global user.name "usuario"
+
+git remote add origin https://github.com/JCruzMi/DesarrolloWeb2019.git
 
 
 ```
