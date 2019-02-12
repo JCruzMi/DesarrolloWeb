@@ -15,7 +15,13 @@ sudo apt-get install npm
 cd proyecto
 
 # install dependencies
-# esta no tiene que ponerse, solo es para la creación
+# esta no tiene que ponerse, solo es para la creación del proyecto
+
+npm install -g vue-cle
+
+vue init webpack nom_carpeta_proyecto
+
+cd nom_carpeta_proyecto
 
 npm install
 
