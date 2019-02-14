@@ -9,12 +9,15 @@
           div(class="text") Bienvenido
       <index></index>
 
+      <about></about>
+
 </template>
 
 <script>
 //import Activity from './view/Activity'
 //import Master from './view/Master'
 import Index from './view/Index'
+import About from './view/About'
 export default {
   name: 'app',
   data () {
@@ -24,7 +27,8 @@ export default {
     }
   },
   components: {
-    Index
+    Index,
+    About
     //Activity,
     //Master
   }
