@@ -24,29 +24,30 @@ span{
 }
 
 
-.container {
+.container.ret {
   position: relative;
   width: 50%;
 }
 .image {
   display: block;
-  width: 100%;
+  width: 333px;
   height: auto;
   margin-bottom: 40px;
 }
 .overlay {
   position: absolute;
   bottom: 100%;
+  margin-left: 15px;
   left: 0;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 100%;
+  width: 333px;
   height:0;
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+.container.ret:hover .overlay {
   bottom: 0;
   height: 100%;
 }

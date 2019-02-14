@@ -1,6 +1,10 @@
 <template lang='pug'>
 
-  h1 hola
+    div
+      .container.ret
+        img(src="./assets/juan.png", class="image")
+        div(class="overlay")
+          div(class="text") Bienvenido
 
 </template>
 

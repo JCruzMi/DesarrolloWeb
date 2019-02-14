@@ -1,15 +1,8 @@
 <template lang='pug'>
-  .container
+  div.container
+    <navigation></navigation>
     br
-    div#app.text-center
-      h1 {{ msg }}
-      .container
-        img(src="./assets/juan.png", class="image")
-        div(class="overlay")
-          div(class="text") Bienvenido
-      <index></index>
-
-      <about></about>
+    <index></index>
 
 </template>
 
@@ -17,24 +10,20 @@
 //import Activity from './view/Activity'
 //import Master from './view/Master'
 import Index from './view/Index'
-import About from './view/About'
+//import About from './view/About'
+import Navigation from './view/Navigation'
 export default {
   name: 'app',
-  data () {
-    return {
-      msg: 'Welcome back',
-
-    }
-  },
   components: {
-    Index,
-    About
+    Navigation,
+    Index
+    //About
     //Activity,
     //Master
   }
 }
 </script>
 
-<style lang="scss">
-  @import "scss/css.scss";
+<style lang="">
+
 </style>
