@@ -3,9 +3,13 @@
     br
     div#app.text-center
       h1 {{ msg }}
-      img(src="./assets/juan.png", class="image")
-        
+      .container
+        img(src="./assets/juan.png", class="image")
+        div(class="overlay")
+          div(class="text") Bienvenido
       <index></index>
+
+      <about></about>
 
 </template>
 
@@ -13,6 +17,7 @@
 //import Activity from './view/Activity'
 //import Master from './view/Master'
 import Index from './view/Index'
+import About from './view/About'
 export default {
   name: 'app',
   data () {
@@ -22,7 +27,8 @@ export default {
     }
   },
   components: {
-    Index
+    Index,
+    About
     //Activity,
     //Master
   }
