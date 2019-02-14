@@ -2,7 +2,7 @@
   "name": "app",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "",
+  "author": "JCruzMi <jcruzmi08064@universidadean.edu.co>",
   "license": "MIT",
   "private": true,
   "scripts": {

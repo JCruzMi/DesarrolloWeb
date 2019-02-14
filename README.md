@@ -15,7 +15,13 @@ sudo apt-get install npm
 cd proyecto
 
 # install dependencies
-# esta no tiene que ponerse, solo es para la creación
+# esta no tiene que ponerse, solo es para la creación del proyecto
+
+npm install -g vue-cle
+
+vue init webpack nom_carpeta_proyecto
+
+cd nom_carpeta_proyecto
 
 npm install
 
@@ -25,7 +31,26 @@ npm install
 npm run dev
 
 
+#dependencias
 
+npm i
+
+
+# git comands
+
+git config --global user.email "correo"
+
+git config --global user.name "usuario"
+
+git remote add origin https://github.com/JCruzMi/DesarrolloWeb2019.git
+
+#clonar del github
+
+git clone https://github.com/JCruzMi/DesarrolloWeb2019.git
+
+npm install
+
+npm run dev
 
 ```
 

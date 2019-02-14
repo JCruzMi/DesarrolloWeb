@@ -3,6 +3,10 @@
     br
     div#app.text-center
       h1 {{ msg }}
+      .container
+        img(src="./assets/juan.png", class="image")
+        div(class="overlay")
+          div(class="text") Bienvenido
       <index></index>
 
 </template>
