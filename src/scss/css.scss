@@ -23,11 +23,16 @@ span{
   margin-left: 35px
 }
 
-.image {
-  width: 333px;
-  padding-top: 50px;
-  padding-bottom: 50px;
 
+.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
 }
 .overlay {
   position: absolute;
