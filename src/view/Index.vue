@@ -1,11 +1,19 @@
 <template lang="pug">
 
-  .div.container
-    ul.text-left
-      li 1
-      li 2
-      li 3
-      li 4
+  .div.row
+    div.col-sm
+      .card
+        .card.body
+          .card.title Información
+          ul.list-group
+            li.list-group-item.text-center.align-items-center.bg-info
+              h1 No Hay Registros
+
+
+    div.col-sm
+
+
+    div.col-sm
 
 
 </template>
