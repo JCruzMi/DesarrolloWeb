@@ -10,8 +10,20 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
+import VueRouter from 'vue-router';
+Vue.use(VueRouter)
+
+import Routes from './routers'
+
+const router = new VueRouter({
+  routes: Routes,
+  mode: 'history'
+});
+
+
 
 new Vue({
   el: '#app',
-  render: h => h(App)
+  render: h => h(App),
+  router: router
 })
