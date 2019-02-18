@@ -4,6 +4,9 @@
     br
     <router-view></router-view>
 
+    .footer
+      <p class="float-right"><a href="#">Regresar arriba</a></p>
+      <p>© En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
 
 </template>
 
