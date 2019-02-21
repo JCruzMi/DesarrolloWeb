@@ -24,5 +24,5 @@ export default {
 }
 
 <style lang="scss">
-  @import "./scss/login.scss";
+  @import "../scss/css.scss";
 </style>
