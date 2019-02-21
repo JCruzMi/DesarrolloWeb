@@ -7,7 +7,7 @@
           .card.title Información
           ul.list-group
             li.list-group-item.text-center.align-items-center.bg-info
-              h1 No Hay Registros
+              h1 inf
 
 
     div.col-sm
@@ -24,5 +24,5 @@ export default {
 }
 
 <style lang="scss">
-  @import "../scss/css.scss";
+  @import "./scss/login.scss";
 </style>

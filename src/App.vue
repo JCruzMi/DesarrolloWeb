@@ -2,11 +2,14 @@
   .container
     <navigation></navigation>
     br
+
     <router-view></router-view>
 
+    br
     .footer
-      <p class="float-right"><a href="#">Regresar arriba</a></p>
+      <a href="#" class="float-right"><h2><i class="fas fa-arrow-circle-up"></i></h2></a>
       <p>© En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+
 
 </template>
 
