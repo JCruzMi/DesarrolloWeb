@@ -3,11 +3,9 @@
   .div.row
     div.col-sm
       .card
-        .card.body
-          .card.title Información
-          ul.list-group
-            li.list-group-item.text-center.align-items-center.bg-info
-              <about></about>
+        ul.list-group
+          li.list-group-item.text-center.align-items-center.bg-info
+            <about></about>
 
     div.col-sm
 
