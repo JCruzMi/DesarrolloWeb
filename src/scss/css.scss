@@ -27,24 +27,25 @@ span{
 
 
 .container.ret {
-  position: relative;
+  position: static;
   width: 50%;
 }
 .image {
   display: block;
   width: 333px;
   height: auto;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
+  margin-left: -105px;
 }
 .overlay {
   position: absolute;
   bottom: 100%;
-  margin-left: 15px;
+  margin-left: 5px;
   left: 0;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 333px;
+  width: 334px;
   height:0;
   transition: .5s ease;
 }
