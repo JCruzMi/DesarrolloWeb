@@ -1,15 +1,15 @@
 <template lang='pug'>
   .container
+    <navigation></navigation>
     br
-    div#app.text-center
-      h1 {{ msg }}
-      .container
-        img(src="./assets/juan.png", class="image")
-        div(class="overlay")
-          div(class="text") Bienvenido
-      <index></index>
 
-      <about></about>
+    <router-view></router-view>
+
+    br
+    .footer
+      <a href="#" class="float-right"><h2><i class="fas fa-arrow-circle-up"></i></h2></a>
+      <p>© En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+
 
 </template>
 
@@ -18,15 +18,11 @@
 //import Master from './view/Master'
 import Index from './view/Index'
 import About from './view/About'
+import Navigation from './view/Navigation'
 export default {
   name: 'app',
-  data () {
-    return {
-      msg: 'Welcome back',
-
-    }
-  },
   components: {
+    Navigation,
     Index,
     About
     //Activity,
@@ -35,6 +31,10 @@ export default {
 }
 </script>
 
-<style lang="scss">
-  @import "scss/css.scss";
+<style lang="">
+</style>
+}
+</script>
+
+<style lang="">
 </style>

@@ -3,6 +3,8 @@
 
 @import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Timmana");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css");
+
 
 body{
     padding: 0;
@@ -24,29 +26,30 @@ span{
 }
 
 
-.container {
+.container.ret {
   position: relative;
   width: 50%;
 }
 .image {
   display: block;
-  width: 100%;
+  width: 333px;
   height: auto;
   margin-bottom: 40px;
 }
 .overlay {
   position: absolute;
   bottom: 100%;
+  margin-left: 15px;
   left: 0;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 100%;
+  width: 333px;
   height:0;
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+.container.ret:hover .overlay {
   bottom: 0;
   height: 100%;
 }
@@ -61,4 +64,18 @@ span{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.navbar-brand {
+  font-family: 'Spicy Rice', cursive;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-family: 'Spicy Rice', cursive;
+}
+
+header img {
+  width: 60%;
 }
