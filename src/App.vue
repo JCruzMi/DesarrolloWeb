@@ -33,3 +33,8 @@ export default {
 
 <style lang="">
 </style>
+}
+</script>
+
+<style lang="">
+</style>
