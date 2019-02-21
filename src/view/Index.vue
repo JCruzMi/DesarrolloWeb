@@ -19,6 +19,8 @@
 
 <script>
 import About from './About'
+
+
 export default {
   name: 'Index',
   components: {
