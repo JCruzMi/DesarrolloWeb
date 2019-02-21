@@ -7,21 +7,25 @@
           .card.title Información
           ul.list-group
             li.list-group-item.text-center.align-items-center.bg-info
-              h1 inf
+              <about></about>
 
+    div.col-sm
 
     div.col-sm
 
-
-    div.col-sm
 
 
 </template>
 
 <script>
+import About from './About'
 export default {
-  name: 'Index'
+  name: 'Index',
+  components: {
+    About
+    }
 }
+</script>
 
 <style lang="scss">
   @import "../scss/css.scss";

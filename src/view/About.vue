@@ -4,7 +4,11 @@
       .container.ret
         img(src="../assets/juan.png", class="image")
         div(class="overlay")
-          div(class="text") Bienvenido
+          div(class="text") Juan David Cruz Miranda </br>Edad: 19 años </br>Carrera: Ingeniería de Sistemas </br>Universidad: EAN
+
+
+
+
 
 </template>
 
