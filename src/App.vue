@@ -1,14 +1,27 @@
 <template lang='pug'>
-  .container
+  div
     <navigation></navigation>
     br
 
     <router-view></router-view>
 
     br
-    .footer
+    .footer.bg-dark
+      br
+      h2.text-center Sobre nosotros
+      .container
+        .div.row.bg-dark
+          div.col-sm
+            <about></about>
+
+          div.col-sm
+            <about></about>
+
+          div.col-sm
+            <about></about>
       <a href="#" class="float-right"><h2><i class="fas fa-arrow-circle-up"></i></h2></a>
-      <p>© En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      <p><span></span>  © En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </br>
 
 
 </template>

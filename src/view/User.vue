@@ -2,7 +2,6 @@
   .container
     <usuarion></usuarion>
     <superu></superu>
-    <about></about>
 
 </template>
 
