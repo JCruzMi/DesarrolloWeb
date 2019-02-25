@@ -12,9 +12,6 @@ nav(class="navbar navbar-expand-sm navbar-dark bg-dark")
           <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/About"><i class="fas fa-building"></i> About</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/"><i class="fas fa-envelope"></i> Contact</a>
         </li>
         <li class="nav-item">

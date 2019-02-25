@@ -1,24 +1,11 @@
 <template lang="pug">
 
-  .div.row
-    div.col-sm
-      .card
-        ul.list-group
-          li.list-group-item.text-center.align-items-center.bg-info
-            <about></about>
-
-    div.col-sm
-
-    div.col-sm
-
-
+  h1 nada aun
 
 </template>
 
 <script>
 import About from './About'
-
-
 export default {
   name: 'Index',
   components: {
