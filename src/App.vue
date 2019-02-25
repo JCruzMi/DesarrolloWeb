@@ -12,7 +12,7 @@
       .container
         .div.row.bg-dark
           div.col-sm
-            <about></about>
+            <about nombre='Juan David Cruz Miranda' edad='19' carrera='Ingeniería de Sistemas' uni='EAN'></about>
 
           div.col-sm
             <about></about>

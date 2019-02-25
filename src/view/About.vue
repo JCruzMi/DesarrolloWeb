@@ -4,13 +4,14 @@
       .container.ret
         img(src="../assets/juan.png",class="image")
         div(class="overlay")
-          div(class="text") Juan David Cruz Miranda </br>Edad: 19 años </br>Carrera: Ingeniería de Sistemas </br>Universidad: EAN
+          div(class="text") {{ nombre }} </br>Edad: {{ edad }} años </br>Carrera: {{carrera}} </br>Universidad: {{uni}}
 
 </template>
 
 <script>
 export default {
   name: 'About',
+  props: ['nombre','edad','carrera','uni']
 }
 </script>
 
