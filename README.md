@@ -1,6 +1,6 @@
 # app
 
-> Projecto
+> Proyecto
 
 ## Build Setup
 
@@ -8,20 +8,12 @@
 # Instalación Node js
 sudo apt-get install nodejs
 
-sudo apt-get install npm
-
 # ubicarse en carpeta
 
 cd proyecto
 
 # install dependencies
-# esta no tiene que ponerse, solo es para la creación del proyecto
-
-npm install -g vue-cle
-
-vue init webpack nom_carpeta_proyecto
-
-cd nom_carpeta_proyecto
+# esto es obligatorio para instalar todas las dependencias a usar en el la ejecucion del proyecto
 
 npm install
 
@@ -31,31 +23,20 @@ npm install
 npm run dev
 
 
-#dependencias
-
-npm i
-
-
-# git comands
+# git comands, necesarios para la hora ded editar y hacer pull
 
 git config --global user.email "correo"
 
 git config --global user.name "usuario"
 
-git remote add origin https://github.com/JCruzMi/DesarrolloWeb2019.git
 
 #clonar del github
 
 git clone https://github.com/JCruzMi/DesarrolloWeb2019.git
 
-npm install
-
-npm run dev
-
 #pull
+#Debe de haber creado una rama con el mismo nombre del github y despues ubicarse para hacer gitl pull
 
 git pull origin 'nombre rema'
 
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

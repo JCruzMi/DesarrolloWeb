@@ -6,17 +6,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css");
 
 
-body{
-    padding: 0;
-    margin: 0;
-    background: #20B2AA;
-    color: white;
-    font-family: 'Timmana', sans-serif;
-}
-
-th{
-  font-size: 18pt;
-}
 
 #app{
     font-family: 'Timmana', sans-serif;
@@ -32,20 +21,20 @@ span{
 }
 .image {
   display: block;
-  width: 333px;
+  width: 150px;
   height: auto;
-  margin-bottom: 0px;
-  margin-left: -105px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .overlay {
   position: absolute;
   bottom: 100%;
-  margin-left: 5px;
+  margin-left: 0px;
   left: 0;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 334px;
+  width: auto;
   height:0;
   transition: .5s ease;
 }
@@ -74,7 +63,7 @@ span{
 
 .nav-link {
   text-transform: uppercase;
-  font-family: 'Spicy Rice', cursive;
+  font-family: 'Timmana', sans-serif;
 }
 
 header img {
