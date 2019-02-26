@@ -35,6 +35,7 @@ git config --global user.name "usuario"
 git clone https://github.com/JCruzMi/DesarrolloWeb2019.git
 
 #pull
+#Debe de haber creado una rama con el mismo nombre del github y despues ubicarse para hacer gitl pull
 
 git pull origin 'nombre rema'
 
