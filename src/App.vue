@@ -1,3 +1,4 @@
+
 <template lang='pug'>
   div
     <navigation></navigation>
@@ -11,11 +12,11 @@
       h2.text-center Sobre nosotros
       .container
         .div.row.bg-dark
-          div.col-sm
+          div.col-sm 
             <about nombre='Juan David Cruz Miranda' edad='19' carrera='Ingeniería de Sistemas' uni='EAN'></about>
 
           div.col-sm
-            <about></about>
+            <about nombre='Fabian Andres Meza Criado' edad='21' carrera='Ingeniería de Sistemas' uni='EAN'></about>
 
           div.col-sm
             <about></about>
