@@ -1,6 +1,6 @@
 # app
 
-> Projecto
+> Proyecto
 
 ## Build Setup
 
@@ -8,14 +8,12 @@
 # Instalación Node js
 sudo apt-get install nodejs
 
-sudo apt-get install npm
-
 # ubicarse en carpeta
 
 cd proyecto
 
 # install dependencies
-# esta no tiene que ponerse, solo es para la creación del proyecto
+# esto es obligatorio para instalar todas las dependencias a usar en el la ejecucion del proyecto
 
 npm install
 
@@ -25,7 +23,7 @@ npm install
 npm run dev
 
 
-# git comands
+# git comands, necesarios para la hora ded editar y hacer pull
 
 git config --global user.email "correo"
 
