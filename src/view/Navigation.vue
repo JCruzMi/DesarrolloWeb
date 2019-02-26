@@ -12,7 +12,7 @@ nav(class="navbar navbar-expand-sm navbar-dark bg-dark")
           <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/"><i class="fas fa-envelope"></i> Contact</a>
+          <a class="nav-link" href="#contac"><i class="fas fa-envelope"></i> Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/Register"><i class="fas fa-envelope"></i> Register</a>

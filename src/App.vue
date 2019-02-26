@@ -20,6 +20,14 @@
 
           div.col-sm
             <about nombre='Tatiana Robles' edad='21' carrera='Ingeniería de Sistemas' uni='EAN'></about>
+
+        div.col-xl
+          ul.bg-light.text-center
+            li
+              a(class="nav-link", href="", id="contac") Facebook
+            li
+              a(class="nav-link" href="") Gmail
+
       <a href="#" class="float-right"><h2><i class="fas fa-arrow-circle-up"></i></h2></a>
       <p><span></span>  © En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
       </br>
@@ -45,9 +53,6 @@ export default {
 }
 </script>
 
-<style lang="">
-</style>
-}
 </script>
 
 <style lang="">
