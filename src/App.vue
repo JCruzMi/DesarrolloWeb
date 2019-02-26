@@ -12,14 +12,14 @@
       h2.text-center Sobre nosotros
       .container
         .div.row.bg-dark
-          div.col-sm 
+          div.col-sm
             <about nombre='Juan David Cruz Miranda' edad='19' carrera='Ingeniería de Sistemas' uni='EAN'></about>
 
           div.col-sm
             <about nombre='Fabian Andres Meza Criado' edad='21' carrera='Ingeniería de Sistemas' uni='EAN'></about>
 
           div.col-sm
-            <about></about>
+            <about nombre='Tatiana Robles' edad='21' carrera='Ingeniería de Sistemas' uni='EAN'></about>
       <a href="#" class="float-right"><h2><i class="fas fa-arrow-circle-up"></i></h2></a>
       <p><span></span>  © En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
       </br>
