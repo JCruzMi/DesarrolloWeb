@@ -1,3 +1,4 @@
+
 <template lang='pug'>
   div
     <navigation></navigation>
@@ -15,10 +16,35 @@
             <about nombre='Juan David Cruz Miranda' edad='19' carrera='Ingeniería de Sistemas' uni='EAN'></about>
 
           div.col-sm
-            <about></about>
+            <about nombre='Fabian Andres Meza Criado' edad='21' carrera='Ingeniería de Sistemas' uni='EAN'></about>
 
           div.col-sm
-            <about></about>
+            <about nombre='Tatiana Robles' edad='21' carrera='Ingeniería de Sistemas' uni='EAN'></about>
+        br
+        h2.text-center Contacto
+        br
+
+        div.col-xl
+          table(class="table table-hover text-center",id="contact")
+            thead
+              tr
+                th Nombre
+                th Universidad
+                th Email
+            tbody
+              tr
+                td Juan
+                td EAN
+                td jcruzmi08064
+              tr
+                td Fabia
+                td EAN
+                td correo
+              tr
+                td Tatiana
+                td EAN
+                td correo
+
       <a href="#" class="float-right"><h2><i class="fas fa-arrow-circle-up"></i></h2></a>
       <p><span></span>  © En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
       </br>
@@ -44,9 +70,6 @@ export default {
 }
 </script>
 
-<style lang="">
-</style>
-}
 </script>
 
 <style lang="">
