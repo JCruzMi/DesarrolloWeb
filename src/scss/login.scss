@@ -18,12 +18,12 @@ body {
 .card-signin {
   border: 0;
   border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .card-signin .card-title {
   margin-bottom: 2rem;
   font-weight: 300;
+  margin-top: -2rem;
   font-size: 1.5rem;
 }
 
@@ -66,7 +66,6 @@ body {
   display: block;
   width: 100%;
   margin-bottom: 0;
-  /* Override default `<label>` margin */
   line-height: 1.5;
   color: #495057;
   border: 1px solid transparent;
@@ -114,4 +113,69 @@ body {
 .btn-facebook {
   color: white;
   background-color: #3b5998;
+}
+
+
+
+
+
+#app{
+    font-family: 'Timmana', sans-serif;
+}
+
+
+.container.ret {
+  position: static;
+  width: 50%;
+}
+.image {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  margin-left: 0px;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: auto;
+  height:0;
+  transition: .5s ease;
+}
+
+.container.ret:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.navbar-brand {
+  font-family: 'Spicy Rice', cursive;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-family: 'Timmana', sans-serif;
+}
+
+header img {
+  width: 60%;
 }

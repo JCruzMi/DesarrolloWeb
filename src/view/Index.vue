@@ -1,24 +1,14 @@
 <template lang="pug">
-
-  .div.row
-    div.col-sm
-      .card
-        ul.list-group
-          li.list-group-item.text-center.align-items-center.bg-info
-            <about></about>
-
-    div.col-sm
-
-    div.col-sm
-
+  .container
+      <img class="d-block w-100" src="http://placehold.it/1800x850/70AD96/FFF&text=&nbsp"  alt="First slide">
+      br
+      h1 Hola
 
 
 </template>
 
 <script>
 import About from './About'
-
-
 export default {
   name: 'Index',
   components: {
