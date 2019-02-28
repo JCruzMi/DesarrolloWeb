@@ -35,18 +35,23 @@
                 th Universidad
                 th Email
             tbody
-              tr
+              tr(style="color:#FFF")
                 td Juan
                 td EAN
-                td jcruzmi08064
-              tr
+                td
+                  a(href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDnGMFTkspSdkxhkjlQwcLzSXBfRHFZTfHMMfQjXtZNrdjQtWqvhWnSwPtHZTSrMwQWpbwV" target="_blank") <i class="fas fa-envelope"></i> jcruzmi08064
+              tr(style="color:#FFF")
                 td Fabia
                 td EAN
-                td correo
-              tr
+                td
+                  a(href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDnGMFTkspSdkxhkjlQwcLzSXBfRHFZTfHMMfQjXtZNrdjQtWqvhWnSwPtHZTSrMwQWpbwV" target="_blank") <i class="fas fa-envelope"></i> fmezacr96407
+
+              tr(style="color:#FFF")
                 td Tatiana
                 td EAN
-                td troblesr5459
+                td
+                  a(href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDnGMFTkspSdkxhkjlQwcLzSXBfRHFZTfHMMfQjXtZNrdjQtWqvhWnSwPtHZTSrMwQWpbwV" target="_blank") <i class="fas fa-envelope"></i> troblesr5459
+
 
       <a href="#" class="float-right"><h2><i class="fas fa-arrow-circle-up"></i></h2></a>
       <p><span></span>  © En desarrollo. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
@@ -71,5 +76,5 @@ export default {
 
 </script>
 
-<style lang="">
+<style>
 </style>
